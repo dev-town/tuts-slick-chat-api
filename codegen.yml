@@ -1,0 +1,12 @@
+schema: ./build-schema.ts
+generates:
+  ./src/types/global.d.ts:
+    plugins:
+      - typescript
+      - typescript-resolvers
+    config:
+      skipTypename: true
+      wrapFieldDefinitions: true
+      typesPrefix: I
+require:
+  - ts-node/register
