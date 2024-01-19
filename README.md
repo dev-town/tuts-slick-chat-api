@@ -1,6 +1,6 @@
 # Slick Chat - API
 
-Slick Chat Serverless API - for use as part of the Slick Chat Tutorial.
+Slick Chat Serverless API - for use as part of the Dev Town "Slick Chat" course.
 
 This API uses serverless, AWS, Lambda, and DynamoDB.
 
